@@ -1,16 +1,14 @@
 {
-  "name": "cypress-project",
+  "name": "automation-practise",
   "version": "1.0.0",
-  "description": "Automation Practise Cypress",
-  "main": "cypress.config.js",
+  "description": "Cypress Automation Practise ",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "Cypress",
     "Tests",
-    "Automation",
-    "Tests"
+    "Automation"
   ],
   "author": "Niski",
   "license": "ISC",

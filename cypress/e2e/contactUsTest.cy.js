@@ -24,7 +24,6 @@ describe("E2E - wgrywanie pliku", ()=> {
         cy.visit("/index.php?controller=contact")
         cy.get('#id_contact').select('Customer service')
         cy.get('input#email[name="from"]').type('test@gmail.com')
-        //cy.get('input#id_order[name="id_order"]').type('test@gmail.com')
         cy.get("#fileUpload").attachFile("../fixtures/ss1.png")
         cy.get("span.filename").should("contain", "ss1.png")
         cy.get('textarea#message[name="message"]').type("Lorem Ipsum Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...")
